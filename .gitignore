@@ -4,3 +4,5 @@
 /TypeSrcipt/function.js
 /TypeSrcipt/interface.js
 /.idea
+.gitignore
+vue.global.js
