@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex-grow</title>
+    <style>
+        .box{
+            padding: 0;
+            margin: 0;
+            display: flex;
+            bottom: 20px;
+            position: fixed;
+        }
+        .box div{
+            flex: 1;
+            text-align: center;
+
+
+        }
+        .box1{
+            background-color: #29030c;
+            flex-grow: 3;
+        }
+        .box2{
+            background-color: #0edddd;
+            flex-grow: 2;
+        }
+        .box3{
+            background-color: #9fde11;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="box1">213</div>
+    <div class="box2">213</div>
+    <div class="box3">213</div>
+</div>
+</body>
+</html>

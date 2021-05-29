@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事与愿违</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .wrapper {
+            /*width:100px;*/
+            height:100px;
+            background:red;
+            position:relative; -webkit-animation:myfirst 5s;
+/*            display: flex;*/
+/*!*align-items: flex-end;*!*/
+/*           justify-content: center;*/
+        }
+        @keyframes myfirst {
+            0%   {background:red; left:0px; top:0px;}
+            25%  {background:yellow; left:200px; top:0px;}
+            50%  {background:blue; left:200px; top:200px;}
+            75%  {background:green; left:0px; top:200px;}
+            100% {background:red; left:0px; top:0px;}
+        }
+        .wrapper div {
+            /* Safari and Chrome */
+/*margin-top: 5%;*/
+
+        }
+    </style>
+
+</head>
+<body>
+<div class="wrapper">
+    <div class="div">
+        <h1>事与愿违</h1>
+        <h2>事与愿违</h2>
+
+    </div>
+</div>
+
+</body>
+</html>

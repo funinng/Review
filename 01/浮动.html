@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .wrapper{
+            width: 600px;
+            margin: 0 auto;
+            border: 1px solid #666;
+            /*overflow: hidden;*/
+        }
+        .wrapper:after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .b1 ,.b2,.b3{
+            width: 200px;
+            height: 150px;
+        }
+        .b1{
+            background-color: aqua;
+            float: left;
+        }
+        .b2{
+            background-color: fuchsia;
+            float: right;
+        }
+        /*.clear{*/
+        /*    clear: both;*/
+        /*}*/
+        .b3{
+            background-color: #9fde11;
+            /*float: none;*/
+            /*float: left;*/
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="b1">1</div>
+    <div class="b2">2</div>
+<!--    <div class="clear"></div>-->
+
+</div>
+<div class="b3">3</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+# 项目排除路径
+/TypeSrcipt/app.js
+/TypeSrcipt/array.js
+/TypeSrcipt/function.js
+/TypeSrcipt/interface.js

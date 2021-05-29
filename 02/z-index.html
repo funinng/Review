@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .wrapper {
+            margin: 0 auto;
+            border: 1px solid sienna;
+            width: 500px;
+            height: 500px;
+            position: relative;
+        }
+
+        .box1, .box2, .box3 {
+            border: 1px solid #27c5ff;
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+        }
+
+        .box1 {
+            background-color: aqua;
+        }
+
+        .box2 {
+            position: absolute;
+            background-color: fuchsia;
+            top: 20px;
+z-index: 2;
+        }
+
+
+        .box3 {
+            position: absolute;
+            background-color: #28ec00;
+            top: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</div>
+</body>
+</html>
